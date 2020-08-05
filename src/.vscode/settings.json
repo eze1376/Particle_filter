@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/erfan/IUT/Humanoid/Vision/Github/SSD/caffe/python",
+        "/home/erfan/IUT/Humanoid/Vision/Github/SSD/caffe/python"
+    ]
+}

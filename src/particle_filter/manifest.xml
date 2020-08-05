@@ -1,0 +1,17 @@
+<package>
+  <description brief="particle_filter">
+
+     particle_filter
+
+  </description>
+  <author>GMU Student</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/particle_filter</url>
+  <depend package="geometry_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+
