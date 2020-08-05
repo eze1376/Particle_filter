@@ -1,4 +1,4 @@
-# Particle_filter
+# Particle filter localization
 particle filter for robot localization developed by Python programming language in a ROS melodic workspcace.
 
 first of all add these in your ROS melodic or above workspace.
@@ -12,7 +12,7 @@ then in a new terminal enter:
 source devel/setup.bash
 rosrun particle_filter particle.py
 ```
-after a window containing robot, landmarks and particles appera, open a new terminal and enter codes below:
+after a window containing robot, landmarks and particles appear, open a new terminal and enter codes below:
 ```
 source devel/setup.bash
 rosrun particle_filter move.py
