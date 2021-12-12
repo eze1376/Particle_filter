@@ -50,34 +50,34 @@ USER_QUIT = 100
 
 def getArrow():
 
-	myKey = getch()
+    myKey = getch()
 
 	# do not stop unless user quits with 'q'
-	while(myKey != 'q'):
-                print("ENTER ARROW KEY OR QUIT WITH 'q'")
-		if (ord(myKey) == 27):
-			myKey = getch()
-			if(ord(myKey) == 91):
-				myKey = getch()
-				if ord(myKey) == KEY_UP:
-					print("increase wheel velocities\n")
-					return KEY_UP
-				elif ord(myKey) == KEY_DOWN:
-					print("decrease wheel velocities\n")
-					return KEY_DOWN
-				elif ord(myKey) == KEY_LEFT:
-					print("turn left\n")
-					return KEY_LEFT
-				elif ord(myKey) == KEY_RIGHT:
-					print("turn right\n")
-					return KEY_RIGHT
-				else:
-					myKey = getch()
-			else:
-				myKey = getch()
-		else:
-			myKey = getch()
+    while(myKey != 'q'):
+        print("ENTER ARROW KEY OR QUIT WITH 'q'")
+        if (ord(myKey) == 27):
+        	myKey = getch()
+        	if(ord(myKey) == 91):
+        		myKey = getch()
+        		if ord(myKey) == KEY_UP:
+        			print("increase wheel velocities\n")
+        			return KEY_UP
+        		elif ord(myKey) == KEY_DOWN:
+        			print("decrease wheel velocities\n")
+        			return KEY_DOWN
+        		elif ord(myKey) == KEY_LEFT:
+        			print("turn left\n")
+        			return KEY_LEFT
+        		elif ord(myKey) == KEY_RIGHT:
+        			print("turn right\n")
+        			return KEY_RIGHT
+        		else:
+        			myKey = getch()
+        	else:
+        		myKey = getch()
+        else:
+        	myKey = getch()
 
-	if(myKey == 'q'):
-		print("user wishes to quit\n")			
-		return USER_QUIT
+    if(myKey == 'q'):
+    	print("user wishes to quit\n")			
+    	return USER_QUIT

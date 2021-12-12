@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 #============================================================#
 #                                                            #
@@ -20,6 +20,8 @@ import matplotlib.pyplot as plt
 from geometry_msgs.msg import Twist
 
 
+global robot
+
 class Particle:
     def __init__(self, x, y, theta=0, w=None):
         # super().__init__()
@@ -28,7 +30,7 @@ class Particle:
         self.theta = theta
         self.w = w
 
-class robot:
+class Robot:
 
     def __init__(self, world_size = 100.0, measurement_range = 30.0,
                  motion_noise = 1.0, measurement_noise = 1.0):
@@ -233,7 +235,7 @@ if __name__ == "__main__":
 
     # instantiate a robot, r
     global robot
-    robot = robot(world_size, measurement_range, motion_noise, measurement_noise)
+    robot = Robot(world_size, measurement_range, motion_noise, measurement_noise)
 
     # create landmarks
     robot.make_landmarks(num_landmarks)

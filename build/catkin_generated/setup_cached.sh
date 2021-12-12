@@ -8,6 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/erfan/IUT/Robotics/Project/workspace/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/erfan/IUT/Robotics/Project/workspace/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/erfan/IUT/Robotics/Project/workspace/devel/share/common-lisp"
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/:/home/erfan/Programs/Webots/webots/lib/webots'
+export PWD='/home/erfan/IUT/Robotics/Project/workspace/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/erfan/IUT/Robotics/Project/workspace/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/erfan/IUT/Robotics/Project/workspace/src:$ROS_PACKAGE_PATH"
