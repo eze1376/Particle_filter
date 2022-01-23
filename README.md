@@ -18,3 +18,4 @@ source devel/setup.bash
 rosrun particle_filter move.py
 ```
 now you can move the robot with arrow keys and see the convergence of particles to the robot position. 
+ 
