@@ -1,2 +1,0 @@
-
--DCATKIN_DEVEL_PREFIX=/home/erfan/IUT/Robotics/Project/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/erfan/IUT/Robotics/Project/workspace/install -G Unix Makefiles
